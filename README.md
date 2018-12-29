@@ -1,4 +1,5 @@
 # Sugar_Mario
 
-index.html  runs the game
-index2.html runs the video
+Run index.html  to start the game
+Run index2.html to start the video
+The game uses node.js server. You can run it by using the IDE brackets which has embedded the node server.
