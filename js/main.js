@@ -421,15 +421,7 @@ PlayState._spawnPlatform = function (platform) {
 
 };
 
-PlayState._spawnEnemyWall = function (x, y, side) {
-    let sprite = this.enemyWalls.create(x, y, 'invisible-wall');
-    // anchor and y displacement
-    sprite.anchor.set(side === 'left' ? 1 : 0, 1);
-    // physic properties
-    this.game.physics.enable(sprite);
-    sprite.body.immovable = true;
-    sprite.body.allowGravity = false;
-};
+
 
 PlayState._spawnCharacters = function (data) {
     // spawn spiders
